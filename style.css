@@ -8,8 +8,8 @@
 body {
 
     /* font-family: "PT Serif", Times, "Times New Roman", Georgia, serif; */
-    font-family: Poppins, sans-serif;
-
+    /* font-family: Poppins, sans-serif; */
+    font-family: 'Glacial Indifference', sans-serif;
     /* font-size: 80px; */
     background-color: #fff;
      /* font-weight: 600; */
@@ -660,10 +660,6 @@ line-height: 1.5;
 }
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> e48b38c0fe1d48c8cabfeaaf8b9f4ca045468214
 
 
 .info-box {
@@ -956,6 +952,33 @@ line-height: 1.5;
     }
 }
 
+
+/* .price-button button{
+   background-color: yellow;
+   border-radius: 50px; 
+  
+   padding: 5px;
+} */
+
+.price-button button {
+    background: linear-gradient(90deg, #ff7e5f, #feb47b); /* Gradient background */
+    border-radius: 50px;
+    padding: 10px 20px;
+    border: none;
+    color: white; /* White text for contrast */
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .price-button button:hover {
+    background: linear-gradient(90deg, #ff6a5b, #fe8b60); /* Slightly darker gradient on hover */
+    transform: scale(1.1); /* Slightly enlarge on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  }
+  
 
 
 footer {
