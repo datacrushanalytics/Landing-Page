@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Recent Projects</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <style>
+    .project-card {
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+      max-width: 90%; /* Reduced card width */
+      margin: 0 auto; /* Center align */
+    }
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    }
+    .project-card img {
+      width: 100%;
+      height: 500px; /* Reduced image height */
+      object-fit: cover;
+    }
+    .project-details {
+      padding: 12px;
+    }
+    .project-title {
+      font-weight: 600;
+      font-size: 1rem; /* Slightly smaller font size */
+    }
+    .project-location {
+      color: #777;
+      font-size: 0.85rem;
+    }
+    .project-link {
+      color: #007bff;
+      text-decoration: none;
+    }
+    .project-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container py-5">
+    <div class="text-center mb-4">
+      <h3 class="fw-bold">Our Recent Projects</h3>
+      <p class="text-muted">
+        We create exceptional digital experiences tailored to our clients' needs, driving growth and success for businesses worldwide.
+      </p>
+    </div>
+    <div class="row g-3">
+      <!-- Card 1 -->
+      <div class="col-md-4">
+        <div class="project-card">
+          <img src="./assets/images/Hire a Freelance Developer for Programming Jobs _ Fiverr.jpg" alt="Project 1">
+          <div class="project-details">
+            <div class="d-flex justify-content-between">
+              <span class="badge bg-warning text-dark">Premium</span>
+              <a href="#" class="project-link">View Site</a>
+            </div>
+            <h5 class="project-title mt-2">MTAC - Textile & Apparel Pvt. Ltd. Business</h5>
+            <p class="project-location mb-0">📍 Mumbai</p>
+          </div>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="col-md-4">
+        <div class="project-card">
+          <img src="./assets/images/Hospa - Medical Clinic & Hospital Elementor WordPress Theme.jpg" alt="Project 2">
+          <div class="project-details">
+            <div class="d-flex justify-content-between">
+              <span class="badge bg-warning text-dark">Premium</span>
+              <a href="#" class="project-link">View Site</a>
+            </div>
+            <h5 class="project-title mt-2">Unique Physiotherapy - Health Services</h5>
+            <p class="project-location mb-0">📍 Kallam, Dharashiv</p>
+          </div>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="col-md-4">
+        <div class="project-card">
+          <img src="./assets/images/Vedoo - Real Estate WordPress Theme.jpg" alt="Project 3">
+          <div class="project-details">
+            <div class="d-flex justify-content-between">
+              <span class="badge bg-warning text-dark">Premium</span>
+              <a href="#" class="project-link">View Site</a>
+            </div>
+            <h5 class="project-title mt-2">Arin Essentials - Wheat Flour Producers</h5>
+            <p class="project-location mb-0">📍 Badlapur, Thane</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

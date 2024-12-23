@@ -744,3 +744,41 @@ display: block;
 .carousel-dots .active {
     background-color: #717171;
 }
+
+
+
+/* our project */
+
+    .project-card {
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    }
+    .project-card img {
+      width: 100%;
+      height: auto;
+    }
+    .project-details {
+      padding: 15px;
+    }
+    .project-title {
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+    .project-location {
+      color: #777;
+      font-size: 0.9rem;
+    }
+    .project-link {
+      color: #007bff;
+      text-decoration: none;
+    }
+    .project-link:hover {
+      text-decoration: underline;
+    }
+ 
