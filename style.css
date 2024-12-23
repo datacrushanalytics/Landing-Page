@@ -8,7 +8,7 @@
 body {
 
     /* font-family: "PT Serif", Times, "Times New Roman", Georgia, serif; */
-    font-family: 'Lobster', cursive;
+  font-family: "Merienda", serif;
 
 
     background-color: #fff;
@@ -17,7 +17,7 @@ body {
     overflow-x: hidden;
 
 }
-
+/* 
 .hero {
     display: flex;
     justify-content: space-between;
@@ -65,6 +65,81 @@ body {
 
 .hero-content button:hover {
     background-color: #eaeaea;
+} */
+
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 50px;
+    background: url('./assets/images/banner.avif') center/cover no-repeat;
+    color: #fff;
+}
+
+.hero-content {
+    max-width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.hero-content ul {
+    display: flex;
+    flex-direction: column;
+    
+    list-style-type: disc;
+    margin: 0 auto;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.price-button {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Adjust spacing between price and button */
+}
+
+.hero-content .price {
+    font-size: 3rem;
+}
+
+.hero-content button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.hero-content button:hover {
+    background-color: #eaeaea;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .price-button {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
 }
 
 /* 
@@ -735,12 +810,49 @@ line-height: 1.5;
 
 
 /* our project */
-
-.project-card {
+/* .project-card {
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  .project-card img {
+    width: 100%;
+    height: auto;
+  }
+  .project-details {
+    padding: 15px;
+  }
+  .project-title {
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+  .project-location {
+    color: #777;
+    font-size: 0.9rem;
+  }
+  .project-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  .project-link:hover {
+    text-decoration: underline;
+  } */
+
+<<<<<<< HEAD
+.project-card {
+=======
+  .project-card {
+>>>>>>> 2fb90f3b1bcdbcd85c12943c9ae05ce562c51bbe
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+<<<<<<< HEAD
 }
 
 .project-card:hover {
@@ -956,3 +1068,32 @@ line-height: 1.5;
 }
 
 /* footer bar end */
+=======
+  }
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  .project-card img {
+    width: 100%;
+    height: auto;
+  }
+  .project-details {
+    padding: 15px;
+  }
+  .project-title {
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+  .project-location {
+    color: #777;
+    font-size: 0.9rem;
+  }
+  .project-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  .project-link:hover {
+    text-decoration: underline;
+  }
+>>>>>>> 2fb90f3b1bcdbcd85c12943c9ae05ce562c51bbe
