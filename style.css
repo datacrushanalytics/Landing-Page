@@ -903,6 +903,38 @@ line-height: 1.5;
     font-size: 2rem;
 }
 
+@media (max-width: 768px) {
+    .intro h6 {
+      font-size: 0.9rem; /* Slightly reduce size */
+    }
+  
+    .intro h3 {
+      font-size: 1.8rem; /* Adjust font size for smaller screens */
+      line-height: 1.4;
+    }
+  
+    .intro .name {
+      font-size: 1.5rem; /* Reduce size for better fit */
+    }
+  }
+  
+  /* Media Query for Mobile (480px and below) */
+  @media (max-width: 480px) {
+    .intro h6 {
+      font-size: 0.8rem; /* Further reduce size for smaller screens */
+    }
+  
+    .intro h3 {
+      font-size: 1.5rem; /* Adjust for mobile view */
+      line-height: 1.5;
+    }
+  
+    .intro .name {
+      font-size: 1.2rem; /* Reduce size for better fit */
+      margin-top: 15px;
+    }
+  }
+
 .form-container {
     flex: 1;
     min-width: 300px;
