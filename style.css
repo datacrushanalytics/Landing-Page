@@ -8,7 +8,11 @@
 body {
 
     /* font-family: "PT Serif", Times, "Times New Roman", Georgia, serif; */
+<<<<<<< HEAD
+  font-family: Poppins, sans-serif;
+=======
     font-family: "Merienda", serif;
+>>>>>>> 13032246091ddc7d9cf1d26cac2b0fea53f43a66
 
 
     background-color: #fff;
@@ -618,11 +622,80 @@ line-height: 1.5;
         font-size: 1rem;
     }
 
+<<<<<<< HEAD
+.faq-answer {
+    font-size: 0.85rem;
+}
+}
+
+
+/* .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+}
+
+.footer p {
+    font-size: 0.9rem;
+} */
+=======
     .faq-answer {
         font-size: 0.85rem;
     }
 }
+>>>>>>> 13032246091ddc7d9cf1d26cac2b0fea53f43a66
 
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+.footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.footer-logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+.social-icons a {
+    font-size: 18px;
+    margin-right: 15px;
+    display: inline-block;
+}
+.social-icons a i {
+    color: #fff;
+}
+.footer-section h5 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+.footer-section ul li a {
+    font-size: 14px;
+}
+.footer-bottom {
+    border-top: 1px solid #333;
+    padding-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}
 
 
 
