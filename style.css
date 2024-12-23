@@ -8,15 +8,11 @@
 body {
 
     /* font-family: "PT Serif", Times, "Times New Roman", Georgia, serif; */
-<<<<<<< HEAD
-  font-family: Poppins, sans-serif;
-=======
-    font-family: "Merienda", serif;
->>>>>>> 13032246091ddc7d9cf1d26cac2b0fea53f43a66
+    font-family: Poppins, sans-serif;
 
-
+    /* font-size: 80px; */
     background-color: #fff;
-
+     /* font-weight: 600; */
     color: #000;
     overflow-x: hidden;
 
@@ -73,77 +69,113 @@ body {
 } */
 
 
-.hero {
+/* .hero {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: left;
     padding: 50px;
-    background: url('./assets/images/banner.avif') center/cover no-repeat;
+    background: url('./assets/images/banner.jpg') center/cover no-repeat rgba(0, 0, 0, 0.6);
+  
     color: #fff;
+} */
+
+.hero {
+    position: relative;
+    background: url('./assets/images/banner.jpg') center/cover no-repeat;
+    color: #fff;
+    min-height: 100vh;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: -1;
 }
 
 .hero-content {
-    max-width: 100%;
-    background: rgba(0, 0, 0, 0.6);
+    max-width: 600px;
     padding: 20px;
-    border-radius: 10px;
+    
 }
 
 .hero-content h1 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     margin-bottom: 20px;
+    margin-top: 80px;
+    margin-left: 40px;
 }
 
 .hero-content p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-bottom: 20px;
     line-height: 1.6;
-}
-
-.hero-content ul {
-    display: flex;
-    flex-direction: column;
-
-    list-style-type: disc;
-    margin: 0 auto;
-    padding-left: 20px;
-    margin-bottom: 30px;
-    font-size: 1rem;
-    line-height: 1.8;
+    margin-left: 40px;
 }
 
 .price-button {
     display: flex;
-    align-items: center;
     gap: 20px;
-    /* Adjust spacing between price and button */
+    flex-wrap: wrap;
+    margin-left: 40px;
 }
 
-.hero-content .price {
-    font-size: 3rem;
-}
-
-.hero-content button {
-    background-color: #fff;
-    color: #000;
-    border: none;
-    padding: 15px 30px;
-    border-radius: 30px;
+ .price-button a {
+    text-decoration: none;
     font-size: 1rem;
-    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
     transition: all 0.3s ease;
 }
 
-.hero-content button:hover {
-    background-color: #eaeaea;
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
 }
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-outline-light {
+    border: 2px solid #fff;
+    color: #fff;
+    background: transparent;
+}
+
+.btn-outline-light:hover {
+    background-color: #fff;
+    color: #000;
+} 
+
+
+
+
 
 /* Responsive design */
 @media (max-width: 768px) {
+    .hero-content {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
     .price-button {
         flex-direction: column;
-        align-items: flex-start;
         gap: 10px;
     }
 }
@@ -622,29 +654,10 @@ line-height: 1.5;
         font-size: 1rem;
     }
 
-<<<<<<< HEAD
-.faq-answer {
-    font-size: 0.85rem;
-}
-}
-
-
-/* .footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #000;
-    color: #fff;
-}
-
-.footer p {
-    font-size: 0.9rem;
-} */
-=======
     .faq-answer {
         font-size: 0.85rem;
     }
 }
->>>>>>> 13032246091ddc7d9cf1d26cac2b0fea53f43a66
 
 
 footer {
