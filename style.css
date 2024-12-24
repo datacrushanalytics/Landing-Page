@@ -103,31 +103,52 @@ body {
 .hero-content {
     max-width: 600px;
     padding: 20px;
-    
+}
+
+.hero-logo {
+    display: block;
+    max-width: 150px;
+    /* Adjust logo size */
+    margin: 0 0 20px 50px;
+    /* Align to the left by default */
 }
 
 .hero-content h1 {
     font-size: 3.5rem;
     margin-bottom: 20px;
-    margin-top: 80px;
-    margin-left: 40px;
+    margin-top: 40px;
+    /* Adjust spacing if needed after adding the logo */
+    margin-left: 50px;
+    /* Align to the left */
 }
 
 .hero-content p {
     font-size: 1.2rem;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
     line-height: 1.6;
-    margin-left: 40px;
+    margin-left: 50px;
+    /* Align to the left */
+    font-weight: 400;
+    font-family: Rubik, sans-serif !important;
+}
+
+.hero-content ul {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+    margin-left: 50px;
+    /* Align to the left */
 }
 
 .price-button {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
-    margin-left: 40px;
+    margin-left: 50px;
+    /* Align to the left */
 }
 
- .price-button a {
+.price-button a {
     text-decoration: none;
     font-size: 1rem;
     font-weight: bold;
@@ -135,6 +156,7 @@ body {
     border-radius: 5px;
     transition: all 0.3s ease;
 }
+
 .btn-primary {
     background-color: #007bff;
     border: none;
@@ -156,6 +178,13 @@ body {
     color: #000;
 }
 
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+    .hero-logo {
+        margin: 0 auto 20px;
+        /* Center the logo on smaller screens */
+    }
+}
 
 
 
