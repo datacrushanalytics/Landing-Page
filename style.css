@@ -164,7 +164,7 @@ body {
 @media (max-width: 768px) {
     .hero-content {
         margin-left: 20px;
-        margin-top: 20px;
+        margin-top: 0px;
     }
 
     .hero-content h1 {
