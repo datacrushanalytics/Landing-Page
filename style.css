@@ -108,7 +108,7 @@ body {
 
 .hero-logo {
     display: block;
-    max-width: 150px;
+    max-width: 100px;
     /* Adjust logo size */
     margin: 0 0 20px 50px;
     /* Align to the left by default */
@@ -806,9 +806,9 @@ line-height: 1.5;
 
 .carousel-card {
     /* background-color: #4caf50; */
-    background-color: black;
+    background-color: #EBF0F6;
 
-    color: white;
+    color: rgb(21, 3, 3);
     margin: 0 15px;
     padding: 30px;
     width: 250px;
@@ -830,7 +830,7 @@ line-height: 1.5;
 .carousel-card p {
     font-size: 1rem;
     margin-bottom: 15px;
-    color: #f1f1f1;
+    color: #080808;
 }
 
 .carousel-dots {

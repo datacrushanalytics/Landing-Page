@@ -25,67 +25,48 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./style.css">
 
+    <!-- Google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
 
+    <!--Aos animation  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
 
-    <!-- <section class="hero">
-        <div class="hero-content">
-            <h1>Get Your Dream Website for Only ₹9,999</h1>
-            <p>Start your online journey with a professional website. Limited-time offer includes:</p>
-           
-            <div class="price">₹9,999</div>
-            <a href="tel:+9763994015"><button>Call now</button></a>
-
-        </div>
-    </section> -->
-
-
-
-    <!-- <section class="hero">
-        <div class="hero-content">
-<<<<<<< HEAD
-           
-            <img src="./assets/images/datacrush logo png frr (1).png" alt="Logo" class="hero-logo">
-            
-              <div class="social">
-                
-              </div>
-=======
-            <!-- Add the logo here -->
-     
-
+    <!-- <section class="hero">-->
     <section class="hero">
         <div class="hero-content">
             <!-- Add the logo here -->
-            <img src="./assets/images/datacrush logo png frrr w (1).png" alt="Logo" class="hero-logo">
-    
+            <a href="#"> <img src="./assets/images/datacrush logo png frrr w (1).png" alt="Logo" class="hero-logo"></a>
+
             <!-- Social media icons -->
             <div class="social1">
                 <a href="https://www.instagram.com/datacrushanalytics/" target="_blank" class="social-link1">
                     <i class="fab fa-instagram"></i>
                 </a>
-                <a href="https://www.facebook.com/profile.php?id=61554003384532&mibextid=ZbWKwL" target="_blank" class="social-link1">
+                <a href="https://www.facebook.com/profile.php?id=61554003384532&mibextid=ZbWKwL" target="_blank"
+                    class="social-link1">
                     <i class="fab fa-facebook-f"></i>
                 </a>
-                <a href="https://www.linkedin.com/company/datacrush-analytics/posts/?feedView=all" target="_blank" class="social-link1">
+                <a href="https://www.linkedin.com/company/datacrush-analytics/posts/?feedView=all" target="_blank"
+                    class="social-link1">
                     <i class="fab fa-linkedin-in"></i>
                 </a>
             </div>
-    
+
             <h1
                 style="font-weight: 600; font-size: 56px; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">
                 Get Your Dream Website for Only ₹9,999
             </h1>
-    
+
             <p>Start your online journey with a professional website. Limited-time offer includes:</p>
-    
+
             <ul style="margin-left: 40px;">
                 <li>Custom Design</li>
                 <li>SEO Optimization</li>
@@ -93,14 +74,14 @@
                 <li>Free Domain for 1 Year</li>
                 <li>Hosting Included</li>
             </ul>
-    
+
             <div class="price-button">
                 <a href="tel:+9763994015"><button type="button">Call now</button></a>
             </div>
         </div>
     </section>
-    
-    
+
+
 
 
     <!-- <section class="features">
@@ -158,8 +139,9 @@
 
     <div class="container py-5">
         <div class=" mb-4">
-            <h2 class="fw-bold "> Projects</h2>
-            <p class="text-muted">
+            <h2 class="fw-bold " style="font-size: 40px;"> Projects</h2>
+            <p class="text-muted"
+                style="font-family:  Rubik, sans-serif; font-weight:400; font-size: 18px; Line-height:33.4286px;">
                 We create exceptional digital experiences tailored to our clients' needs, driving growth and success for
                 businesses worldwide.
             </p>
@@ -167,7 +149,7 @@
         <div class="row g-5">
             <!-- Card 1 -->
             <div class="col-md-4">
-                <div class="project-card">
+                <div class="project-card" data-aos="fade-up">
                     <img src="./assets/images/Hire a Freelance Developer for Programming Jobs _ Fiverr.jpg"
                         alt="Project 1">
                     <div class="project-details">
@@ -182,7 +164,7 @@
             </div>
             <!-- Card 2 -->
             <div class="col-md-4">
-                <div class="project-card">
+                <div class="project-card" data-aos="fade-up">
                     <img src="./assets/images/Vedoo - Real Estate WordPress Theme.jpg" style="height: 690px;"
                         alt="Project 2">
                     <div class="project-details">
@@ -199,7 +181,7 @@
             </div>
             <!-- Card 3 -->
             <div class="col-md-4">
-                <div class="project-card">
+                <div class="project-card" data-aos="fade-up">
                     <img src="./assets/images/Hospa - Medical Clinic & Hospital Elementor WordPress Theme.jpg"
                         style="height: 690px;" alt="Project 3">
                     <div class="project-details">
@@ -510,9 +492,12 @@
 
         //   h1 Animation 
 
+    </script>
 
-
-
+    <script>
+        AOS.init({
+            duration:1000
+        });
     </script>
 
 
