@@ -87,6 +87,7 @@ body {
     background: url('./assets/images/banner.jpg') center/cover no-repeat;
     color: #fff;
     min-height: 100vh;
+    width: 104%;
 }
 
 .hero::before {
@@ -157,6 +158,35 @@ body {
     transition: all 0.3s ease;
 }
 
+/*  */
+.social1 {
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    display: flex;
+    gap: 10px; /* Reduce the gap between icons */
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.social-link1 {
+    font-size: 18px; /* Smaller icon size */
+    color: #fff;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-link1:hover {
+    transform: scale(1.2);
+    color: #f39c12; /* Highlight color on hover */
+}
+
+@media screen and (max-width: 768px) {
+    .social1 {
+        display: none;
+    }
+}
+
+
 .btn-primary {
     background-color: #007bff;
     border: none;
@@ -181,7 +211,7 @@ body {
 /* Media Query for Smaller Screens */
 @media (max-width: 768px) {
     .hero-logo {
-        margin: 0 auto 20px;
+        margin: 0 51px 20px;
         /* Center the logo on smaller screens */
     }
 }
@@ -876,6 +906,13 @@ line-height: 1.5;
     height: auto;
 }
 
+@media (max-width: 768px) {
+    .project-card img {
+       
+        height: 420px;
+    }
+}
+
 .project-details {
     padding: 15px;
 }
@@ -964,8 +1001,8 @@ line-height: 1.5;
 
 @media (max-width: 480px) {
     .intro h3 {
-        font-size: 1.4rem;
-        line-height: 1.4;
+        font-size: 20px;
+        line-height: 1.4em;
     }
 
     .intro h6 {
